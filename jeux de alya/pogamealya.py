@@ -47,7 +47,7 @@ def main():
                     running = False
                     
                
-                    
+           #ce que j'ai rajouté moi au fichier pour faire bouger le pion         
                 elif event.key == pygame.K_RIGHT :
                     if player [0] < WORLD_WIDTH - 1 : 
                         player = (player [0] + 1, player[1])
@@ -63,7 +63,7 @@ def main():
                 elif event.key == pygame.K_UP :
                     if player [1] > 0 :
                         player = (player [0], player[1] - 1 )
-                        
+             #fin de ce que j'ai rajouté            
    
                 
             elif event.type == pygame.KEYUP:
